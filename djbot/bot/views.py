@@ -1,7 +1,7 @@
 # bot/views.py
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
-from .bot import django_bot
+from .bot.bot import django_bot
 
 @csrf_exempt
 def webhook(request):

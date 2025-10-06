@@ -2,7 +2,7 @@
 import telebot
 from telebot import types
 from django.conf import settings
-from .models import TelegramUser
+from ..models import TelegramUser
 
 
 class DjangoBot:
